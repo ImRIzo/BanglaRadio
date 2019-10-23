@@ -11,7 +11,7 @@
     <AssemblyName>BanglaRadio</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <HockeyAppResourceId>9e623cf01e8a43acb4eaf36cc6d12528</HockeyAppResourceId>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -65,16 +65,16 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>BF19EC331701AF05004BF5D541CE3308AC7210CD</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>CF42EBF3D6F7A1B707F29DC316A49A4CCEB5DEA9</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>BanglaRadio_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>BanglaRadio_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
@@ -193,7 +193,7 @@
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
+      <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>

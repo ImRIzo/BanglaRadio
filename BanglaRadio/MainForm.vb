@@ -75,15 +75,19 @@
 
 
     Private Sub PictureBox1_Click_3(sender As Object, e As EventArgs) Handles Facebook.Click
-        Process.Start("http://facebook.com/imRizo")
+        Process.Start("https://facebook.com/ImRizo")
     End Sub
 
     Private Sub PictureBox2_Click_1(sender As Object, e As EventArgs) Handles Website.Click
-        Process.Start("http://rizodev.ml")
+        Process.Start("https://rizowan.github.io")
     End Sub
 
     Private Sub About_Click(sender As Object, e As EventArgs) Handles About.Click
         AboutBox.Show()
+    End Sub
+
+    Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 
     'Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
